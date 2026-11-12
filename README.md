@@ -145,12 +145,10 @@ su nombre, hostname y `Ubuntu 24.04`, y que existen los tres subdirectorios.
 Ansible emitio solamente avisos informativos de descubrimiento automatico
 del interprete Python (`/usr/bin/python3.12`), sin fallos de ejecucion.
 
-**Captura de pantalla pendiente:** la politica de seguridad de las herramientas
-de interfaz bloqueo el acceso a Terminal y Copilot para obtener la imagen.
-Los resumenes anteriores son resultados reales, pero no sustituyen la captura
-solicitada. No se ha fabricado ni simulado una imagen.
+### Captura de pantalla
 
-Para completar esa parte de la entrega, ejecutar
-`ansible-playbook -i inventory.ini playbook.yml` en una terminal, tomar una
-captura autentica que muestre las tareas y el `PLAY RECAP` de ambos servidores,
-agregarla al repositorio y enlazarla en esta seccion.
+Captura autentica proporcionada por el usuario de la ejecucion en Ubuntu WSL,
+sin modificar. Muestra las tareas, Ubuntu 24.04 en ambos servidores y el
+`PLAY RECAP` con `ok=6`, `changed=0`, `unreachable=0` y `failed=0` para ambos.
+
+![Ejecucion exitosa del playbook en server1 y server2](ejecucion-exitosa.png)
